@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  </head>
+  <body>
+    <header>
+        <div>First Brainstorm</div>
+        <nav>
+            <ul>
+                <li><a href="Meeting Logistics">Meeting Logistics</a></li>
+                <li><a href="Agenda">Agenda</a></li>
+                <li><a href="Poll">Poll</a></li>
+                <li><a href="Images and Videos">Images and Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1><span style="color: blue;">IVC</span></h1>
+        <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
+        <h2 id="Meeting Logistics">Meeting Logistics</h2>
+        <div>
+            <p><b>Meeting Topic:</b><span id="topic">Marketing for IVC</span></p>
+            <p><b>Meeting Date:</b><span id="date">Apr 16, 2023</span></p>
+            <p><b>Meeting Attendence:</b><span id="attendance">Nobody</span></p>
+        </div>
+        <section>
+            <h2 id="Agenda">Agenda</h2>
+            <ol>
+                <li><em>From last time</em></li>
+                <li><strong>New Business this time</strong></li>
+                <li>Comments/Questions/Concerns</li>
+            </ol>
+        </section>
+        <section>
+            <h3>From last time</h3>
+            <ul>
+                <li><i>History of IVC</i></li>
+            </ul>
+        
+            <h3>New Business this time</h3>
+            <details>
+                <summary>Name a few classes that you like</summary>
+                <p>WR 1, WR 2</p>
+            </details>
+
+            <h3>Comments or Concerns</h3>
+            <ul>
+                <li>Math classes are pretty good </li>
+                <li>Science classes are pretty good too</li>
+                <li>Economics and accounting classes are very good</li>
+            </ul>
+            <a href="https://www.ivc.edu/class-schedule">Click me to see class schedule!</a>
+        </section>
+        <br>
+        <h2 id="Poll">Poll</h2>
+        <form>
+            <fieldset>
+              <legend>Personal Information</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br>
+          
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone"><br>
+          
+              <label for="birthdate">Birthdate:</label>
+              <input type="date" id="birthdate" name="birthdate"><br>
+          
+              <label for="gender">Gender:</label><br>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+          
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br>
+          
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label><br>
+            </fieldset>
+          
+            <br>
+          
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea><br>
+          
+            <label for="colors">Favorite Colors:</label>
+            <input type="text" id="colors" name="colors" list="colorlist">
+            <datalist id="colorlist">
+              <option value="Red">
+              <option value="Blue">
+              <option value="Green">
+              <option value="Yellow">
+              <option value="Orange">
+              <option value="Purple">
+            </datalist><br>
+          
+            <label for="cars">Favorite Car:</label>
+            <select id="cars" name="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select><br>
+          
+            <button type="submit">Submit</button>
+          </form>
+    </main>
+    <footer>
+        <h2 id="">Images and Videos</h2>
+        <section>
+            <p>image</p>
+            <br>
+            <img src="images/photoIVC.png" alt="photoIVC" width="380" height="200">
+            <p>audio</p>
+            <audio controls>
+                <source src="IMG_0483.MOV" type="audio/MOV">
+                <source src="IMG_0483.MOV" type="audio/ogg">
+            </audio>
+            <p>video</p>
+            <video width="380" height="200" controls>
+                <source src="IMG_0483.MOV" type="video/MOV">
+                <source src="IMG_0483.MOV" type="video/ogg">
+            </video>
+        </section>
+    </footer>
+  </body>
+</html>
