@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://chengqianc.github.io/Lab2_Starter/
+# sp23-cse110-lab3
+https://chengqianc.github.io/sp23-cse110-lab3/
